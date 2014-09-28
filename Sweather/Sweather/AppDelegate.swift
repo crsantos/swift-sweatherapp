@@ -21,7 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         println(OpenWeatherMapSDKVersionNumber)
         
-        let sdk = OpenWeatherMapSDK(appKey: "d3d933bdb19422bd44ceb6b9de397cd5")
+        // TODO: enter your API key HERE
+        let sdk = OpenWeatherMapSDK(appKey: nil)
         
         let task = sdk.searchByNameTask("Lisbon,PT", completion: { (obj, success) -> Void in
             

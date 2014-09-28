@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD4340A219D7125F00D968E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4340A119D7125F00D968E6 /* AppDelegate.swift */; };
+		DD4340A419D7125F00D968E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4340A319D7125F00D968E6 /* ViewController.swift */; };
+		DD4340A719D7125F00D968E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4340A519D7125F00D968E6 /* Main.storyboard */; };
+		DD4340A919D7125F00D968E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4340A819D7125F00D968E6 /* Images.xcassets */; };
+		DD4340AC19D7125F00D968E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4340AA19D7125F00D968E6 /* LaunchScreen.xib */; };
+		DD4340B819D7125F00D968E6 /* SweatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4340B719D7125F00D968E6 /* SweatherTests.swift */; };
+		DD4340D019D7427400D968E6 /* OpenWeatherMapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4340CF19D7427400D968E6 /* OpenWeatherMapSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD4340B219D7125F00D968E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD43409419D7125F00D968E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD43409B19D7125F00D968E6;
+			remoteInfo = Sweather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD43409C19D7125F00D968E6 /* Sweather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4340A019D7125F00D968E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4340A119D7125F00D968E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD4340A319D7125F00D968E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD4340A619D7125F00D968E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD4340A819D7125F00D968E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD4340AB19D7125F00D968E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD4340B119D7125F00D968E6 /* SweatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4340B619D7125F00D968E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4340B719D7125F00D968E6 /* SweatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweatherTests.swift; sourceTree = "<group>"; };
+		DD4340CF19D7427400D968E6 /* OpenWeatherMapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenWeatherMapSDK.framework; path = "../OpenWeatherMapSDK/build/Debug-iphoneos/OpenWeatherMapSDK.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD43409919D7125F00D968E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4340D019D7427400D968E6 /* OpenWeatherMapSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4340AE19D7125F00D968E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD43409319D7125F00D968E6 = {
+			isa = PBXGroup;
+			children = (
+				DD4340CF19D7427400D968E6 /* OpenWeatherMapSDK.framework */,
+				DD43409E19D7125F00D968E6 /* Sweather */,
+				DD4340B419D7125F00D968E6 /* SweatherTests */,
+				DD43409D19D7125F00D968E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD43409D19D7125F00D968E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD43409C19D7125F00D968E6 /* Sweather.app */,
+				DD4340B119D7125F00D968E6 /* SweatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD43409E19D7125F00D968E6 /* Sweather */ = {
+			isa = PBXGroup;
+			children = (
+				DD4340A119D7125F00D968E6 /* AppDelegate.swift */,
+				DD4340A319D7125F00D968E6 /* ViewController.swift */,
+				DD4340A519D7125F00D968E6 /* Main.storyboard */,
+				DD4340A819D7125F00D968E6 /* Images.xcassets */,
+				DD4340AA19D7125F00D968E6 /* LaunchScreen.xib */,
+				DD43409F19D7125F00D968E6 /* Supporting Files */,
+			);
+			path = Sweather;
+			sourceTree = "<group>";
+		};
+		DD43409F19D7125F00D968E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD4340A019D7125F00D968E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD4340B419D7125F00D968E6 /* SweatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4340B719D7125F00D968E6 /* SweatherTests.swift */,
+				DD4340B519D7125F00D968E6 /* Supporting Files */,
+			);
+			path = SweatherTests;
+			sourceTree = "<group>";
+		};
+		DD4340B519D7125F00D968E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD4340B619D7125F00D968E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD43409B19D7125F00D968E6 /* Sweather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4340BB19D7125F00D968E6 /* Build configuration list for PBXNativeTarget "Sweather" */;
+			buildPhases = (
+				DD43409819D7125F00D968E6 /* Sources */,
+				DD43409919D7125F00D968E6 /* Frameworks */,
+				DD43409A19D7125F00D968E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sweather;
+			productName = Sweather;
+			productReference = DD43409C19D7125F00D968E6 /* Sweather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD4340B019D7125F00D968E6 /* SweatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4340BE19D7125F00D968E6 /* Build configuration list for PBXNativeTarget "SweatherTests" */;
+			buildPhases = (
+				DD4340AD19D7125F00D968E6 /* Sources */,
+				DD4340AE19D7125F00D968E6 /* Frameworks */,
+				DD4340AF19D7125F00D968E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4340B319D7125F00D968E6 /* PBXTargetDependency */,
+			);
+			name = SweatherTests;
+			productName = SweatherTests;
+			productReference = DD4340B119D7125F00D968E6 /* SweatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD43409419D7125F00D968E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Carlos Santos";
+				TargetAttributes = {
+					DD43409B19D7125F00D968E6 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					DD4340B019D7125F00D968E6 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = DD43409B19D7125F00D968E6;
+					};
+				};
+			};
+			buildConfigurationList = DD43409719D7125F00D968E6 /* Build configuration list for PBXProject "Sweather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD43409319D7125F00D968E6;
+			productRefGroup = DD43409D19D7125F00D968E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD43409B19D7125F00D968E6 /* Sweather */,
+				DD4340B019D7125F00D968E6 /* SweatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD43409A19D7125F00D968E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4340A719D7125F00D968E6 /* Main.storyboard in Resources */,
+				DD4340AC19D7125F00D968E6 /* LaunchScreen.xib in Resources */,
+				DD4340A919D7125F00D968E6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4340AF19D7125F00D968E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD43409819D7125F00D968E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4340A419D7125F00D968E6 /* ViewController.swift in Sources */,
+				DD4340A219D7125F00D968E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4340AD19D7125F00D968E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4340B819D7125F00D968E6 /* SweatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD4340B319D7125F00D968E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD43409B19D7125F00D968E6 /* Sweather */;
+			targetProxy = DD4340B219D7125F00D968E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD4340A519D7125F00D968E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4340A619D7125F00D968E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD4340AA19D7125F00D968E6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4340AB19D7125F00D968E6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD4340B919D7125F00D968E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD4340BA19D7125F00D968E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD4340BC19D7125F00D968E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/carlossantos/dev/Sweatherapp/OpenWeatherMapSDK/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Sweather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD4340BD19D7125F00D968E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/carlossantos/dev/Sweatherapp/OpenWeatherMapSDK/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Sweather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD4340BF19D7125F00D968E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SweatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweather.app/Sweather";
+			};
+			name = Debug;
+		};
+		DD4340C019D7125F00D968E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SweatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweather.app/Sweather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD43409719D7125F00D968E6 /* Build configuration list for PBXProject "Sweather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4340B919D7125F00D968E6 /* Debug */,
+				DD4340BA19D7125F00D968E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4340BB19D7125F00D968E6 /* Build configuration list for PBXNativeTarget "Sweather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4340BC19D7125F00D968E6 /* Debug */,
+				DD4340BD19D7125F00D968E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4340BE19D7125F00D968E6 /* Build configuration list for PBXNativeTarget "SweatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4340BF19D7125F00D968E6 /* Debug */,
+				DD4340C019D7125F00D968E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD43409419D7125F00D968E6 /* Project object */;
+}

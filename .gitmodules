@@ -1,0 +1,4 @@
+[submodule "OpenWeatherMapSDK"]
+	path = OpenWeatherMapSDK
+	url = git@github.com:crsantos/swift-openweathermapsdk.git
+	branch = develop

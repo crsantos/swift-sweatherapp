@@ -45,6 +45,7 @@ class ViewController: UIViewController {
             if (success!){
                 
                 println("Completed request with success? \(success), response => \(obj)")
+                self.updateWithCity(obj as City)
                 
             } else{
                 
@@ -53,6 +54,13 @@ class ViewController: UIViewController {
             
             self.activityIndicator.stopAnimating()
         })
+    }
+    
+    // MARK: - Private
+    
+    func updateWithCity(city: City) {
+        
+        self.cityNameLabel.text = city.name
     }
 }
 

@@ -8,8 +8,6 @@
 
 import UIKit
 
-import OpenWeatherMapSDK
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -18,23 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
-        println(OpenWeatherMapSDKVersionNumber)
-        
-        // TODO: enter your API key HERE
-        let sdk = OpenWeatherMapSDK(appKey: nil)
-        
-        let task = sdk.searchByNameTask("Lisbon,PT", completion: { (obj, success) -> Void in
-            
-            if (success!){
-                
-                println("Completed request with success? \(success), response => \(obj)")
-                
-            } else{
-                
-                println("ERROR ON REQUEST!")
-            }
-        })
         
         return true
     }

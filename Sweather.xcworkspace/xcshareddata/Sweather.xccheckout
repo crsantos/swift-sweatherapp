@@ -20,7 +20,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3497B04607C41C1B83BAF51D49E16F87FC1D6A39</key>
-		<string>..OpenWeatherMapSDK/</string>
+		<string>..OpenWeatherMapSDK</string>
 		<key>827AF89554A345DFB32263511C9ADD363019FA42</key>
 		<string>..</string>
 	</dict>
@@ -36,17 +36,17 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3497B04607C41C1B83BAF51D49E16F87FC1D6A39</string>
+			<string>827AF89554A345DFB32263511C9ADD363019FA42</string>
 			<key>IDESourceControlWCCName</key>
-			<string>OpenWeatherMapSDK</string>
+			<string>Sweatherapp</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>827AF89554A345DFB32263511C9ADD363019FA42</string>
+			<string>3497B04607C41C1B83BAF51D49E16F87FC1D6A39</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Sweatherapp</string>
+			<string>SweatherappOpenWeatherMapSDK</string>
 		</dict>
 	</array>
 </dict>

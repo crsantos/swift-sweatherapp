@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         // TODO: enter your API key HERE
@@ -30,6 +31,7 @@ class ViewController: UIViewController {
     }
 
     override func didReceiveMemoryWarning() {
+        
         super.didReceiveMemoryWarning()
         
     }
